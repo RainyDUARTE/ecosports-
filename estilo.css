@@ -72,6 +72,27 @@ main p {
     font-size: 20px;
     margin: 15px 0;
 }
+
+.sobre,
+.pagamento,
+.localizacao {
+    margin: 20px 0;
+}
+
+.sobre p,
+.pagamento ul {
+    margin: 15px 0;
+}
+
+.pagamento ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .produto {
     display: block;
     width: 50%;
