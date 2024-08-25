@@ -63,4 +63,57 @@ main {
     margin: auto;
     padding: 10px 10px;
 }
+main h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.produto {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.produto:hover {
+    background-color: #55ae5e;
+}
+.texto-link {
+    color: #73a942;
+    text-decoration: none;
+}
+
+.texto-link:hover {
+    color: #a44a3f;
+}
+
+footer {
+    background-color: #011936;
+    color: #ffffff;
+    padding: 20px;
+    max-width: 1020px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #a44a3f;
+}
 
