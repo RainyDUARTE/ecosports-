@@ -123,11 +123,12 @@ main p {
 footer {
     background-color: #011936;
     color: #ffffff;
-    padding: 20px;
+    padding: 20px 0 20px 0;
+    margin: auto 0 20px;
     max-width: 1020px;
-    margin: 20px auto 0;
-    text-align: center;
-    box-sizing: border-box;
+    justify-content: center;
+    display: inline-block;
+    width: 100%;
 }
 
 footer p {
